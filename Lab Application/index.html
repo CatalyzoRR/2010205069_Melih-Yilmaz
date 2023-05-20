@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <h2>Student Registration Form</h2>
+    <form method="post" action="register.php">
+        <label for="full_name">Full Name:</label>
+        <input type="text" name="full_name" required><br><br>
+        
+        <label for="email">Email Address:</label>
+        <input type="email" name="email" required><br><br>
+        
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="Male" required>
+        <label for="gender_male">Male</label><br>
+        
+        <input type="radio" name="gender" value="Female" required>
+        <label for="gender_female">Female</label><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
